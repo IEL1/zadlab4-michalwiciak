@@ -1,11 +1,16 @@
-package pl.edu.ur.polab4;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pl.edu.ur.polab4.obliczanieFigur;
 import java.util.Scanner;
-public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
-    
+/**
+ *
+ * @author MICHAL
+ */
+public class Main {
     public static void main(String[] args) {
         // TODO zad 4, 5
         System.out.println("Wybierz numer oznaczajacy dana figure:\n"
@@ -103,9 +108,8 @@ public class Main {
                 break;
             default:
                 System.out.println("Nie ma figury o takim oznaczeniu");
-                break;
+                break;    
         }
         
     }
-    
 }

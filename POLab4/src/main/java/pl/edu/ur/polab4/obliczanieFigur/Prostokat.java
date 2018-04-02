@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pl.edu.ur.polab4;
+package pl.edu.ur.polab4.obliczanieFigur;
 
 /**
  *
@@ -30,5 +30,4 @@ public class Prostokat {
     public void PokazDane() {
         System.out.println("Nazwa figury: " + nazwa + "\nBok1 = " + bok + "\nBok2 = " + bok2 + "\nPole = " + pole + "\nObwod = " + obw);
     }
-    
 }

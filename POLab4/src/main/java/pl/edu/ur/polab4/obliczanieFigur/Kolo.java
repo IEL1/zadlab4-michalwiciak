@@ -3,31 +3,31 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pl.edu.ur.polab4;
+package pl.edu.ur.polab4.obliczanieFigur;
 
 /**
  *
  * @author MICHAL
  */
-public class Kula {
+public class Kolo {
     public String nazwa;
-    public double r;
+    public double promien;
     public double pole;
-    public double obj;
+    public double obw;
     
     public double pole(double r){
-    return 4*Math.PI*r*r;
+    double wynik = Math.PI*r*r;
+    return wynik;
     }
     
-    public double obj(double r){
-    return 4/3*Math.PI*r*r*r;
+    public double obw(double r){
+    return 2*Math.PI*r;
     }
     
-    public Kula(){
+    public Kolo(){
 }
-    
+
     public void PokazDane() {
-        System.out.println("Nazwa figury: " + nazwa + "\nPromien = " + r + "\nPole = " + pole + "\nObjetosc = " + obj);
+        System.out.println("Nazwa figury: " + nazwa + "\nPromien = " + promien + "\nPole = " + pole + "\nObwod = " + obw) ;
     }
-    
 }
